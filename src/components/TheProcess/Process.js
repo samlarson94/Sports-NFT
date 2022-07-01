@@ -1,10 +1,10 @@
 import React from 'react';
 import { FaFootballBall, FaHandsHelping, FaBox } from 'react-icons/fa';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
+import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './ProcessStyles';
 
 const Technologies = () =>  (
-  <Section id="tech">
+  <Section id="process">
     <SectionDivider />
     < br />
     <SectionTitle>The Process</SectionTitle>

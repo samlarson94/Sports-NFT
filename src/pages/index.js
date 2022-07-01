@@ -1,5 +1,5 @@
 import Hero from '../components/Hero/Hero';
-import Technologies from '../components/Technologies/Technologies';
+import Process from '../components/TheProcess/Process';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
 
@@ -9,7 +9,7 @@ const Home = () => {
       <Section grid>
         <Hero />
       </Section>
-      <Technologies />
+      <Process />
     </Layout>
   );
 };
