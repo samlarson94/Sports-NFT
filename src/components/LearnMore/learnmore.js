@@ -7,17 +7,17 @@ import Button from '../../styles/GlobalComponents/Button';
 
 const Hero = (props) => (
 
-<Section row nopadding>
-   <Section>
+<Section row center>
    <SectionDivider />
      <SectionTitle main center>
       Interested in learning more? 
      </SectionTitle>
-     <SectionText>
+     <Section style={{justifyContent:"center", alignItems:"center", textAlign:"center"}}>
+     <SectionText style={{ fontWeight:'bold', justifyContent:"center"}}>
       Reach out to our team today!
      </SectionText>
-     <Button onClick={() => window.location = "mailto:samlarson94@gmail.com"}>Find Out More</Button>
-   </Section>
+     <Button onClick={() => window.location = "mailto:samlarson94@gmail.com"}>Request Info</Button>
+     </Section>
  </Section>
 );
 

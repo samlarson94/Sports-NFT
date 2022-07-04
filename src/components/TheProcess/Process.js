@@ -35,7 +35,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Reward Loyalty</ListTitle>
           <ListParagraph>
-            Our team partners with your front office to create an exclusive shop for loyal fans.  Only fans that have made it to a number of live events can access the exclusive merchandise.
+            Our team partners with your front office to create an exclusive shop for loyal fans.  Fans that have collected multiple NFT's by attending live events can gain access to the exclusive merchandise.
           </ListParagraph>
         </ListContainer>
       </ListItem>
