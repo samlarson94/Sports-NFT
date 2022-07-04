@@ -13,7 +13,7 @@ const Technologies = () =>  (
     </SectionText>
     <List>
       <ListItem>
-        <FaFootballBall size="3rem" />
+        <FaFootballBall size="3rem" color="#ffcc33"/>
         <ListContainer>
           <ListTitle>Reward Live Attendance</ListTitle>
           <ListParagraph>
@@ -22,7 +22,7 @@ const Technologies = () =>  (
         </ListContainer>
       </ListItem>
       <ListItem>
-        <FaBox size="3rem" />
+        <FaBox size="3rem" color="#ffcc33" />
         <ListContainer>
           <ListTitle>Simplified Tech</ListTitle>
           <ListParagraph>
@@ -31,7 +31,7 @@ const Technologies = () =>  (
         </ListContainer>
       </ListItem>
       <ListItem>
-        <FaHandsHelping size="3rem" />
+        <FaHandsHelping size="3rem" color="#ffcc33" />
         <ListContainer>
           <ListTitle>Reward Loyalty</ListTitle>
           <ListParagraph>

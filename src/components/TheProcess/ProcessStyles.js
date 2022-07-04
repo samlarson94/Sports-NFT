@@ -118,6 +118,7 @@ export const ListIcon = styled.img`
   width: 48px;
   height: 48px;
   margin-bottom: 10px;
+  color: #BF953F;
   
   @media ${props => props.theme.breakpoints.md}{
     width: 40px;
