@@ -2,7 +2,10 @@
   "name": "portfolio_nextjs",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://samlarson94.github.io/Sports-NFT",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "next dev",
     "build": "next build && next export",
     "start": "next start"
