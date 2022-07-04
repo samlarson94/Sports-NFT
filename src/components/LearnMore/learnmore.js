@@ -9,7 +9,7 @@ const Hero = (props) => (
 
 <Section row center>
    <SectionDivider />
-     <SectionTitle main center>
+     <SectionTitle id="more-info" main center>
       Interested in learning more? 
      </SectionTitle>
      <Section style={{justifyContent:"center", alignItems:"center", textAlign:"center"}}>
