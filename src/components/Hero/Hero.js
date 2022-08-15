@@ -6,18 +6,30 @@ import Button from '../../styles/GlobalComponents/Button';
 //Import Hero-specific components from HeroStyles.js
 import { LeftSection } from './HeroStyles';
 
-const Hero = (props) => (
- <Section row nopadding>
-   <LeftSection>
-     <SectionTitle main center>
-      Reward Fans, Boost Attendence, Create a Winning Culture.
-     </SectionTitle>
-     <SectionText>
-       We help sports team deliver special offerings to their loyal fans through NFT's. 
-     </SectionText>
-     <Button onClick={() => window.location = "mailto:samlarson94@gmail.com"}>Let's Connect</Button>
-   </LeftSection>
- </Section>
-);
+import waitlist from '@zootools/waitlist-js';
+import { useCallback } from 'react';
+
+const Hero = (props) => {
+  const joinWaitlist = useCallback((event) => {
+    event.preventDefault();
+  
+    // Pass your waitlist ID
+    waitlist.openPopup("UrCfHiKOtIhPs5hiDrCd")
+  }, [])
+
+  return (
+    <Section row nopadding>
+      <LeftSection>
+        <SectionTitle main center>
+        Reward Fans, Boost Attendence, Create a Winning Culture.
+        </SectionTitle>
+        <SectionText>
+          We help sports team deliver special offerings to their loyal fans through NFT's. 
+        </SectionText>
+        <Button onClick={joinWaitlist}>Let's Connect</Button>
+      </LeftSection>
+    </Section>
+  )
+}
 
 export default Hero;

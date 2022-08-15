@@ -9,7 +9,7 @@ const Technologies = () =>  (
     < br />
     <SectionTitle>The Process</SectionTitle>
     <SectionText>
-      Be on the cutting edge of technology and marketing without the headaches involved.  Our team tackles the technical side and logistics so you can focus on putting on a great event.
+      Be on the cutting edge of technology and marketing without the headaches involved.  Our team tackles the technical side so you can focus on putting on a great event.
     </SectionText>
     <List>
       <ListItem>
@@ -26,7 +26,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Simplified Tech</ListTitle>
           <ListParagraph>
-            Fans simply need to scan a QR code at the game to claim their NFT.  No technical expertise required. <br />
+            Fans simply need to scan a QR code at the game to claim their NFT.  A link with download instructions is then sent to their phone. No technical expertise required. <br />
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -35,7 +35,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Reward Loyalty</ListTitle>
           <ListParagraph>
-            Our team partners with your front office to create an exclusive shop for loyal fans.  Fans that have collected multiple NFT's by attending live events can gain access to the exclusive merchandise.
+            Our team will partner with your front office to create an exclusive shop for loyal fans.  Fans that have collected multiple NFT's by attending live events can gain access to the exclusive merchandise.
           </ListParagraph>
         </ListContainer>
       </ListItem>
