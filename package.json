@@ -5,7 +5,7 @@
   "homepage": "https://samlarson94.github.io/Sports-NFT",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "next build && next export && git add out/ && git commit -m \"Deploy gh-pages\" && git subtree push --prefix out origin gh-pages",
     "dev": "next dev",
     "build": "next build && next export",
     "start": "next start"
