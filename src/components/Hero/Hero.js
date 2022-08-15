@@ -21,7 +21,7 @@ const Hero = (props) => {
     <Section row nopadding>
       <LeftSection>
         <SectionTitle main center>
-        Reward Fans, Boost Attendence, Create a Winning Culture.
+        Reward Fans, Boost Attendance, Create a Winning Culture.
         </SectionTitle>
         <SectionText>
           We help sports team deliver special offerings to their loyal fans through NFT's. 
