@@ -3,6 +3,7 @@ import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillVideoCamera } from 'react-icons/ai';
 // import { DiCssdeck } from 'react-icons/di';
 import { HiOutlineViewGridAdd } from 'react-icons/hi';
+import { BsShieldShaded } from 'react-icons/bs'
 
 //Import styled components from HeaderStyles.js
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
@@ -13,7 +14,7 @@ const Header = () =>  (
       <Link href="/">
         <a style={{ display: 'flex', alignItems: "center", color: 'white', marginBottom: '20px'}}>
           {/* <DiCssdeck size="3rem" /> <Span> Home Team Heroes </Span> */}
-          < HiOutlineViewGridAdd size="5rem" /> <Span> Home Team Heroes </Span>
+          < BsShieldShaded size="5rem" /> <Span> Nifty Fan Club </Span>
         </a>
       </Link>
     </Div1>
